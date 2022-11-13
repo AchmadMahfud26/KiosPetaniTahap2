@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@color/white">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat datang di Kios Petani"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dapatkan Kualitas Terbaik Disini"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/txtprofil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="100dp"
+        android:text="Mahfud"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/backgroundprofil"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/petani_2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/baris1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/backgraoundmenu"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/backgraoundmenu"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/baris2"
+        android:layout_below="@id/baris1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/backgraoundmenu"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/backgraoundmenu"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/baris3">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/backgraoundmenu"
+            android:layout_marginTop="550dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/backgraoundmenu"
+            android:layout_marginTop="550dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/padi"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/grain"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="220dp" />
+    <ImageView
+        android:id="@+id/cabai"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/chilli"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="220dp" />
+    <ImageView
+        android:id="@+id/jagung"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/corn"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="390dp" />
+    <ImageView
+        android:id="@+id/kangkung"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/onion"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="390dp" />
+    <ImageView
+        android:id="@+id/obat"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/fertilizer"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="570dp" />
+    <ImageView
+        android:id="@+id/pupuk"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/rice"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="570dp" />
+
+    <TextView
+        android:id="@+id/txtpadi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beli Benih Padi"
+        android:layout_marginTop="325dp"
+        android:layout_marginLeft="65dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/txtcabai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beli Bibit Cabai"
+        android:layout_marginTop="325dp"
+        android:layout_marginLeft="268dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/txtjagung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beli Benih Jagung"
+        android:layout_marginTop="495dp"
+        android:layout_marginLeft="55dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/txtkangkung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beli Bibit Kangkung"
+        android:layout_marginTop="495dp"
+        android:layout_marginLeft="255dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/txtobat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beli Obat"
+        android:layout_marginTop="675dp"
+        android:layout_marginLeft="80dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/txtpupuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beli Pupuk"
+        android:layout_marginTop="675dp"
+        android:layout_marginLeft="285dp"
+        
+        android:textColor="@color/black"/>
+
+</RelativeLayout>
